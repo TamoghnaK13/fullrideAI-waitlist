@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fullrideAI Waitlist</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+    <header class="text-center p-6 w-full">
+        <nav>
+            <h1 class="text-3xl font-bold">fullride<span class="text-[#1e54c7]">AI</span></h1>
+        </nav>
+    </header>
+    <main class="flex flex-col md:flex-row items-start justify-center flex-grow w-full p-4">
+        <section class="bg-white rounded-lg shadow-lg p-8 w-full md:w-1/2 text-left mb-8 md:mb-0 md:mr-8">
+            <h2 class="text-2xl font-bold mb-4">FullRideAI: Your Game-Changer for College Recruiting</h2>
+            <p class="mb-4">Are you ready to take the hassle out of connecting with college football coaches and finally focus on what really matters—your game? FullRideAI is here to revolutionize the recruiting process, making it faster, easier, and more effective than ever before.</p>
+            <div class="text-center mb-4">
+                <button class="md:hidden bg-blue-600 text-white p-2 rounded hover:bg-blue-700" onclick="document.getElementById('waitlist-form').scrollIntoView({ behavior: 'smooth' });">Join the Waitlist</button>
+            </div>
+            <hr class="my-4">
+            <h3 class="text-xl font-bold mb-2">Why FullRideAI?</h3>
+            <p class="mb-4">Forget the hours of scouring the internet to track down school and coach emails. Say goodbye to sending out the same generic email templates that don’t stand a chance of standing out. With FullRideAI, we take all that backbreaking work off your plate.</p>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Comprehensive Coach Database:</strong> Instantly access a full, updated list of every football coach across all divisions and teams.</li>
+                <li><strong>Tailored Outreach:</strong> With just a few clicks, let our AI craft custom, personalized emails that showcase your stats, skills, and personal story—designed to capture attention and spark interest.</li>
+                <li><strong>Time-Saving Convenience:</strong> No more manual data entry or guessing what to say. Just build your profile, choose your schools, and let us handle the rest.</li>
+            </ul>
+            <p class="mb-4">It’s like having your very own recruiting assistant—speeding up the process so you can get back to doing what you love most: playing football.</p>
+            <hr class="my-4">
+            <h3 class="text-xl font-bold mb-2">The Moment You’ve Been Dreaming Of</h3>
+            <p class="mb-4">Imagine this: after using FullRideAI to connect with the right coach at the right program, you open your email and see the message that changes everything. You’ve been noticed. The coach is impressed. And then comes the line that stops your heart:</p>
+            <blockquote class="italic mb-4">"We’d like to officially offer you a spot to attend our university and join our football program as a student-athlete."</blockquote>
+            <p class="mb-4">That’s the moment FullRideAI helps make possible. The pride, the excitement, the validation that all your hard work on the field has paid off—this is what we’re here to help you achieve.</p>
+            <hr class="my-4">
+            <h3 class="text-xl font-bold mb-2">Join the Waitlist Today</h3>
+            <p class="mb-4">Get ahead of the game and join the FullRideAI waitlist now. Be one of the first to experience the smarter, faster way to connect with college football coaches and take the next step toward your future.</p>
+            <p class="font-bold">Don’t wait for your dream to find you—go out and get it with FullRideAI.</p>
+            <p class="font-bold">Sign up today and let’s get you noticed.</p>
+        </section>
+        <section class="w-full md:w-1/2">
+            <div id="waitlist-form" class="bg-white rounded-lg shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-bold mb-6">Join the Waitlist</h2>
+                <form class="launchlist-form" action="https://getlaunchlist.com/s/QEn1Y6" method="POST">
+                    <label for="name" class="block mb-2">Name</label>
+                    <input name="name" type="text" required class="w-full p-2 mb-4 border border-gray-300 rounded">
+                    <label for="email" class="block mb-2">Email</label>
+                    <input name="email" type="email" required class="w-full p-2 mb-4 border border-gray-300 rounded">
+                    <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Sign Up</button>
+                </form>
+            </div>
+            <div class="w-full text-center">
+                <h2 class="text-2xl font-bold mb-6">Leaderboard</h2>
+                <iframe scrolling="yes" src="https://getlaunchlist.com/w/e/QEn1Y6/leaderboard" class="w-full h-screen border-none"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center w-full mt-8">
+        <p>&copy; 2025 fullrideAI</p>
+    </footer>
+</body>
+</html>
