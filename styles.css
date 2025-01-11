@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', 'Open Sans', 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -51,7 +51,7 @@ a:hover {
 }
 
 .gradient-text {
-    background: linear-gradient(to right, blue, black);
+    background: linear-gradient(to right, #2463ec, black);
     -webkit-background-clip: text;
     color: transparent;
 }
